@@ -94,7 +94,7 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
             // Floating Action Button
             Positioned(
               right: 30,
-              left: 30,
+              bottom: 30,
               child: ScaleTransition(
                 scale: _scaleAnimation,
                 child: _isLastPage
